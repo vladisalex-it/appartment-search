@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const option = document.createElement('option');
             option.value = building.address;
             option.textContent = building.address;
+            option.style.fontSize = `12px`
             buildingSelect.appendChild(option);
         });
     }
