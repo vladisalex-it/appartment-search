@@ -51,7 +51,7 @@ input[type="number"] {
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 6px;
-    font-size: 1em;
+    font-size: 0.9 em;
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -62,7 +62,10 @@ input[type="number"] {
     background-position: right 10px top 50%;
     background-size: 12px;
     cursor: pointer;
+}
 
+select option {
+    font-size: 12px;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
